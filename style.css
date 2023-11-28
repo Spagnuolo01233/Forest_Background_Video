@@ -1,0 +1,80 @@
+/* Import google font link. */
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Roboto:ital,wght@0,500;0,900;1,900&display=swap');
+/* Important to set up overflow on hidden to cover all screen with the video. */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nerko One', cursive;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
+/* With these options we set the video to cover the whole page. */
+video{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+/* Top Left and transform fix the header in the center. */
+header{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-100%);
+    text-align: center;
+    color: #fff;
+}
+
+header h1{
+    font-weight: 500;
+    font-size: 1.75rem;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+header span{
+    font-weight: 800;
+    font-size: 7rem;
+    display: block;
+}
+
+.description{
+    position: absolute;
+    bottom: 10%;
+    width: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #000;
+    color: #fff;
+    border-radius: 20px;
+    opacity: 0.7;
+    padding: 1.5rem;
+}
+
+.description p{
+    text-align: justify;
+    max-width: 42rem;
+    margin-inline: auto;
+    line-height: 1.5;
+}
+
+.copyright{
+    font-size: 0.65rem;
+}
+
+.copyright a{
+    color: #fff;
+    text-underline-offset: 1.8px;
+}
+
+/* We set up the screen to be adapted with screen 1200px and low. */
+@media screen and (max-width: 1200px) {
+    .description{
+        position: absolute;
+        width: 91vw;
+        bottom: 0;
+        border-radius: 20px 20px 0 0;
+        margin: auto;
+        padding: 0.6rem;
+    }    
+}
