@@ -1,5 +1,7 @@
 # Forest Background Video Web Page.
 
+https://spagnuolo01233.github.io/Forest_Background_Video/
+
 # Description.
 
 This project is a showcase of a web page using a full-screen background video to create an immersive and visually striking user experience. The site also features a centered header and a description section with text overlaying the video. It is designed for educational purposes, showcasing the integration of video in web design and responsive styling techniques.
@@ -23,7 +25,8 @@ Open the index.html file in a browser to view the web page.
 To modify styles or content, edit the index.html and style.css files as needed.
 
 # Preview.
-Preview of the web page
+
+https://spagnuolo01233.github.io/Forest_Background_Video/
 
 Video Credits
 The background video is taken from "The Forest, Cinematic Drone Footage" on YouTube.
