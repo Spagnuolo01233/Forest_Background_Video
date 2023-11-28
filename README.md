@@ -2,7 +2,7 @@
 
 # Description.
 
-This project is a showcase of a web page using a full-screen background video to create an immersive and visually striking user experience. The site also features a centered header and a description section with text overlaying the video.
+This project is a showcase of a web page using a full-screen background video to create an immersive and visually striking user experience. The site also features a centered header and a description section with text overlaying the video. It is designed for educational purposes, showcasing the integration of video in web design and responsive styling techniques.
 
 # Features.
 - Full-screen background video covering the entire browser window.
